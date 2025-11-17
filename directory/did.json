@@ -1,34 +1,23 @@
 {
-    "credential": {
-      "issuanceDate": "2025-11-15T16:12:33.207Z",
-      "credentialSubject": {
-        "student_name": "John Doe",
-        "gender": "Male",
-        "dob": "2010-05-15",
-        "parent_or_guardian": "Jane Doe",
-        "contact": "1234567890",
-        "student_id": "2154189532",
-        "id": "did:jwk:eyJrdHkiOiJSU0EiLCJlIjoiQVFBQiIsInVzZSI6InNpZyIsImtpZCI6IlJyem1lOUF3a0J2Y05CdW5LY2YxSFdjT1ZiTGIwWE80UzhmLTMxTDROSHMiLCJhbGciOiJSUzI1NiIsIm4iOiI4SmE2MlU4dlpvVTZ4dVlEWUlCVGt3Nzc2aHdQRkt0Nm94OEpPWWxtYk1Uck8zbTRpZHRVLVpKcjlUVWNhbnE4X0haRGlkWGZ4REdlbFF2RlVvVFZ5R0VXaklVakU3V0RGVzJsMUhFUXlBMmo4RzVBNm9VUXFMcjVET1hmNS1NeVdjSFcwbGJCS0JJQldsSkJ5N0VSUkZtUjh0ODQ0RWJENTlpUXJ1S21aaEIzenFoa1U4TDdxaDk2TzJkWmZQaDlGLUU3akNvZExnQjZJeGFGS2JxZVZmdFhGNFlSQ1lSeTJibmFnQ09wR2o2OFpQT2xFNGlEamZwWnZRb29PMnlxRXhENk93YV9DQkNpaThQbk1lNk1VbTZnZFZwZkNNZzVSamhXeXpMX1l3ZmxDWHVDeVFpZDVBX2hDZjlrVXFFTENFWlpfTC1DQlRaYURZZXlJZGpFYVEifQ=="
-      },
-      "id": "https://mosip.io/credential/f4609ff8-05cc-46b1-a804-a8e26f145c79",
-      "type": [
-        "VerifiableCredential",
-        "SchoolCredential"
-      ],
-      "@context": [
-        "https://www.w3.org/2018/credentials/v1",
-        "https://mosip.github.io/inji-config/contexts/school.json",
-        "https://w3id.org/security/suites/ed25519-2020/v1"
-      ],
-      "issuer": "did:web:hirekarma1.github.io:tempfiles:directory",
-      "expirationDate": "2027-11-15T16:12:33.207Z",
-      "proof": {
-        "type": "Ed25519Signature2020",
-        "created": "2025-11-15T16:12:33Z",
-        "proofPurpose": "assertionMethod",
-        "verificationMethod": "did:web:hirekarma1.github.io:tempfiles:directory#4stFPSYEtgXvmf5n2bOE3akz-xT63JXZW6PxExj19VA",
-        "proofValue": "z5aZLaot3kYjXY6WgjDLok6uiSmeSFs4hQxt2m6UkFVRvZ1Ewxt62QG4wmmN4LgxoA5MGzidg6xZtnymqctmPDfaz"
-      }
+    "assertionMethod": [
+    "did:web:hirekarma1.github.io:tempfiles:directory"
+    ],
+    "service": [],
+    "id": "did:web:hirekarma1.github.io:tempfiles:directory",
+    "verificationMethod": [
+    {
+    "publicKeyMultibase": "z6MkqN2myPtGSP8z5rDKfG83HJmbjx8EbSwix7FcAa6xXDRq",
+    "controller": "did:web:hirekarma1.github.io:tempfiles:directory",
+    "id": "did:web:hirekarma1.github.io:tempfiles:directory#gFTqx0dI8lhLgXmAS99aFoy20W_VaIrobaojNUNRHGY",
+    "type": "Ed25519VerificationKey2020",
+    "@context": "https://w3id.org/security/suites/ed25519-2020/v1"
     }
-  }
-  
+    ],
+    "@context": [
+    "https://www.w3.org/ns/did/v1"
+    ],
+    "alsoKnownAs": [],
+    "authentication": [
+    "did:web:hirekarma1.github.io:tempfiles:directory"
+    ]
+    }
