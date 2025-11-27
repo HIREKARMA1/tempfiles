@@ -6,7 +6,7 @@
 "id": "did:web:hirekarma1.github.io:tempfiles:directory",
 "verificationMethod": [
 {
-"publicKeyMultibase": "z6Mkn3PzyAFF9hLLHQWeScog5SmrMFXRhMTRPp7ciLrVRvZ7",
+"publicKeyMultibase": "z6Mkj9ndQYqVvxqjGMXnxwsp6S76eu2KdCfddUN21uzT8KS2",
 "controller": "did:web:hirekarma1.github.io:tempfiles:directory",
 "id": "did:web:hirekarma1.github.io:tempfiles:directory#73I6NVB715PXRHECJUEFeUI38nff-aq5ZKVXYxlhQ9w",
 "type": "Ed25519VerificationKey2020",
